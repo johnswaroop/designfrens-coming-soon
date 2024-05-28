@@ -1,33 +1,42 @@
+@font-face {
+    font-family: "archia"; /* Replace with your font name */
+    src: url("/archia/Archia-Bold.otf"); /* Add format for your font */
+    font-weight: 700; /* Optionally specify font weight */
+    font-style: bold; /* Optionally specify font style */
+}
+
+@font-face {
+    font-family: "archia"; /* Replace with your font name */
+    src: url("/archia/Archia-SemiBold.otf"); /* Add format for your font */
+    font-weight: 600; /* Optionally specify font weight */
+    font-style: semi-bold; /* Optionally specify font style */
+}
+
+@font-face {
+    font-family: "archia"; /* Replace with your font name */
+    src: url("/archia/Archia-Light.otf"); /* Add format for your font */
+    font-weight: 300; /* Optionally specify font weight */
+    font-style: light; /* Optionally specify font style */
+}
+
+@font-face {
+    font-family: "archia"; /* Replace with your font name */
+    src: url("/archia/Archia-Regular.otf"); /* Add format for your font */
+    font-weight: 400; /* Optionally specify font weight */
+    font-style: normal; /* Optionally specify font style */
+}
+
+@font-face {
+    font-family: "archia"; /* Replace with your font name */
+    src: url("/archia/Archia-Thin.otf"); /* Add format for your font */
+    font-weight: 200; /* Optionally specify font weight */
+    font-style: thin; /* Optionally specify font style */
+}
+
+.arc {
+    font-family: "archia";
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
