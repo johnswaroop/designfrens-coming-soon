@@ -33,6 +33,11 @@
     font-style: thin; /* Optionally specify font style */
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .arc {
     font-family: "archia";
 }

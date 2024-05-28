@@ -6,14 +6,14 @@ import Message from "@/components/svgs/message";
 
 function screen() {
   return (
-    <div className="flex w-full h-screen justify-center items-center bg-[#8491F7]">
+    <div className="flex min-h-screen w-full justify-center items-center bg-[#8491F7]">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="1440"
         height="900"
         fill="none"
         viewBox="0 0 1440 900"
-        className="w-screen h-fit object-contain  border-[#8491F7] border-[0.5px]"
+        className="w-full h-fit object-contain"
       >
         <g clipPath="url(#clip0_78_117)">
           <path fill="#fff" d="M0 0H1440V900H0z"></path>
