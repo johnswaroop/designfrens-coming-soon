@@ -4,14 +4,14 @@ import React from "react";
 
 function Icon() {
   return (
-    <div className="flex h-screen w-full justify-center items-center bg-[#8491F7] overflow-y-hidden">
+    <div className="flex w-full justify-center items-center bg-[#8491F7]">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="1440"
         height="900"
         fill="none"
         viewBox="0 0 1440 900"
-        className="w-full h-fit object-contain"
+        className="w-full h-fit"
       >
         <g clipPath="url(#clip0_78_117)">
           <path fill="#fff" d="M0 0H1440V900H0z"></path>
