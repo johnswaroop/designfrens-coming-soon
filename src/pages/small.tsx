@@ -1,6 +1,6 @@
 import React from "react";
 
-// className="w-full h-fit object-contain"
+// className="w-full h-fit object-contain" --
 
 function Icon() {
   return (
